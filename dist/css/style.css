@@ -56,6 +56,23 @@
     font-style: normal;
 }
 
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: right 22px;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 
 /*----End new fonts added ---*/
 
